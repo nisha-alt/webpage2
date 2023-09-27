@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+/* Tophead Section Start*/
+.tophead{
+    width:100%;
+    background: #05571d;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 100px;
+}
+.tophead ul li{
+    color:#fff;
+    display: inline-block;
+    margin:0px 5px;
+}
+.tophead ul li a{
+    color:#b6e9c5;
+    
+}
+/* Tophead Section End*/
+/* Header Section Start */
+header{
+    width:100%;
+    height: 100px;
+    background: #1a8b3c;
+    color:#fff;
+    padding:0px 100px;
+    line-height: 100px;
+    
+}
+header h1{
+    font-size:30px ;
+}
+header h1,header h3{
+    display: inline-block;
+}
+header h3{
+    margin-left: 20px;
+}
+/* Header Section End */
+/* Navbar Section Start */
+nav{
+    background-color:#3ff274;
+    padding:0px 100px;
+
+}
+.active{
+    margin:0px;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    margin:10px 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:#000;
+    font-weight:550;
+    font-size: 16px;
+}
+/* Navbar Section End */
+/* Main Section start */
+
+section main{
+    padding:35px 100px;
+    float:left;
+    width:75%;
+
+}
+section aside{
+    float:right;
+    width:25%;
+    background:lightgrey;
+    padding:35px 40px;
+}
+section::after{
+    content: "";
+    clear:both;
+    display:table;
+    width:100%; 
+}
+aside ul{
+    padding:10px 20px;
+
+}
+aside ul li{
+    list-style: none;
+    
+}
+.subheading{
+    color:#0af450;
+    padding:0px 5px;
+}
+.myheading{
+    padding:5px 0px;
+}
+main p{
+    text-align: justify;
+    
+}
+main .para{
+    border-left: 5px solid #1a8b3c;
+
+    margin:20px 70px;
+    padding:10px;
+}
+.btn{
+    text-decoration: dashed;
+    color:#1a8b3c;
+    font-weight: 800;
+}
