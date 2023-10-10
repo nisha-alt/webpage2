@@ -133,10 +133,11 @@ main h2,h4,h3{
 
 }
 /* Main Section End */
+/* Footer Section Start */
 footer{
     background: #05571d;
     width:100%;
-    height:200px;
+    height:auto;
 }
 footer .link{
     float:left;
@@ -166,3 +167,46 @@ footer .copy{
 .link h3,.fllow h3,.copy h3{
     color:#8dedaa;
 }
+/* Footer Section End */
+/* Meadia query start */
+@media only screen and (max-width: 991px){
+    .tophead ul li{
+        display: block;
+    }
+    .tophead{
+        height:auto;
+        padding:10px;
+    }
+    header,nav{
+        text-align: center;
+        padding:0px 10px;
+    }
+    section{
+        padding:0px 0px 0px 10px;
+    }
+    .copy{
+        padding:30px;
+    }
+}
+@media only screen and (max-width:991px){
+    section main,section aside{
+        float:none;
+        width:100%;
+    }
+  footer  .link,footer .fllow,footer .copy{
+        float:none;
+        width:100%;
+        
+    }
+}
+@media only screen and (max-width: 575px){
+    header{
+        line-height: normal;
+    }
+    header h1,header h3{
+        display:block;
+
+        
+    }
+}
+/* Meadia query End */
