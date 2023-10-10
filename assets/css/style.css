@@ -137,7 +137,7 @@ main h2,h4,h3{
 footer{
     background: #05571d;
     width:100%;
-    height:auto;
+    height:220px;
 }
 footer .link{
     float:left;
@@ -187,6 +187,9 @@ footer .copy{
     .copy{
         padding:30px;
     }
+    footer{
+        height:auto;
+    }
 }
 @media only screen and (max-width:991px){
     section main,section aside{
@@ -198,6 +201,7 @@ footer .copy{
         width:100%;
         
     }
+    
 }
 @media only screen and (max-width: 575px){
     header{
